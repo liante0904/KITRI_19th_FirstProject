@@ -1,0 +1,33 @@
+#hideSidebarButton {
+	background-position: 0px 0px; top: 50px; width: 7px; height: 23px; right: 0px; margin-top: 50px; margin-right: 0px; float: right; position: absolute; z-index: 11; background-image: url("../images/buttons.png");
+}
+#hideSidebarButton:hover {
+	cursor: pointer;
+}
+.sidebar_hidden#hideSidebarButton {
+	background-position: -7px 0px;
+}
+#sidebarHandler {
+	
+}
+#content {
+	padding: 6px 10px 10px; position: relative;
+}
+.sidebar_hidden#sidebar {
+	display: none;
+}
+body .sidebar_hidden#content {
+	width: auto; margin-right: 0px;
+}
+@media print
+{
+#sidebarHandler {
+	display: none;
+}
+#sidebar {
+	display: none;
+}
+body #content {
+	width: auto; margin-right: 0px;
+}
+}

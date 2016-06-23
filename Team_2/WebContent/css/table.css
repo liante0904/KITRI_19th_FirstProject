@@ -1,0 +1,286 @@
+@CHARSET "EUC-KR";
+
+table.type09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type09 thead th#id{
+	padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+    text-align: center;
+}
+table.type09 thead td#id{
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+table.type09 tbody td#id{
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+table.type09 tbody th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type09 tbody th#id{
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+    text-align: center;
+}
+table.type09 td {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+table.type09 tfoot td {
+	text-align: right;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 0px solid #ccc;
+}
+
+table.type09 tfoot td.page{
+	text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    vertical-align: top;
+    border-bottom: 0px solid #ccc;
+}
+
+
+
+#main-a2 a{
+	padding: 6px 12px;
+	font-weight: bold;
+	text-decoration: none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	color: #000000;
+}
+
+#main-a2 a.selected, #main-menu2 a.selected:hover {
+	padding: 5px 12px;
+	text-shadow: 0px -1px #666;
+	color: #80ffff;
+	border-bottom: none;
+}
+
+#main-a2 a:hover {
+	color: #635f6b;
+	text-decoration: initial;
+}
+
+/* Menu */
+#main-a2 a {
+	font-weight: bold;
+}
+
+#main-a2 a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+/* --pro_list.jsp 게시판 css --------------------------------------------------------------------------------------------*/
+tbody#main-a2 tr:hover{
+	background-color: #eff1ef; 
+}
+
+table.type05 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+	margin:50px 0;
+}
+table.type05 thead th {
+    padding: 10px;
+    font-weight: bold;
+
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type05 thead th#id{
+    font-weight: bold;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type05 tbody th {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type05 td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+table.type05 tfoot td {
+	text-align: right;
+    padding: 10px;
+    border-bottom: 0px solid #ccc;
+}
+
+table.type05 tfoot td.page{
+	text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 0px solid #ccc;
+}
+
+/* -- //pro_list.jsp 게시판 css --------------------------------------------------------------------------------------------*/
+
+/*체크박스*/
+
+
+.onoffswitch {
+    position: relative; width: 100px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+    display: none;
+    }
+    .onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+    }
+    .onoffswitch-inner {
+    width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner > div {
+    float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    }
+    .onoffswitch-inner .onoffswitch-active {
+    padding-left: 15px;
+    background-color: #C2C2C2; color: #FFFFFF;
+    }
+    .onoffswitch-inner .onoffswitch-inactive {
+    padding-right: 15px;
+    background-color: #C2C2C2; color: #FFFFFF;
+    text-align: right;
+    }
+    .onoffswitch-switch {
+    width: 40px; margin: 0px; text-align: center;
+    border: 0px solid #999999;border-radius: 0px;
+    position: absolute; top: 0; bottom: 0;
+    }
+    .onoffswitch-active .onoffswitch-switch {
+    background: #27A1CA; left: 0;
+    }
+    .onoffswitch-inactive .onoffswitch-switch {
+    background: #A1A1A1; right: 0;
+    }
+    .onoffswitch-active .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; left: 40px;
+    border-style: solid; border-color: #27A1CA transparent transparent #27A1CA; border-width: 15px 10px;
+    }
+    .onoffswitch-inactive .onoffswitch-switch:before {
+    content: " "; position: absolute; top: 0; right: 40px;
+    border-style: solid; border-color: transparent #A1A1A1 #A1A1A1 transparent; border-width: 15px 10px;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+    }
+    
+    /*-----------------------*/
+    
+    
+table.type10 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+	margin-left: 40px;
+}
+table.type10 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type10 thead th#id{
+	padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+    text-align: center;
+}
+table.type10 thead td#id{
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+table.type10 tbody td#id{
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+table.type10 tbody th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type10 tbody th#id{
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+    text-align: center;
+}
+table.type10 td {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+table.type10 tfoot td {
+	text-align: right;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 0px solid #ccc;
+}
+
+table.type10 tfoot td.page{
+	text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    vertical-align: top;
+    border-bottom: 0px solid #ccc;
+}

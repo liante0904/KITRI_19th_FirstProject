@@ -1,0 +1,14 @@
+@CHARSET "EUC-KR";
+body {
+	margin: 0;
+	padding:0;
+	width:100%;
+	font-size: 12px;
+}
+
+#FirstTable{position:relative; right:50%;width:500px; height:100px;}
+
+#News{float:left; }
+#chartContainer{float:left;width:300px; height:300px;}
+
+#ilgam table{width:500px;height:300px;}
